@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Nueva Reserva</title>
+</head>
+<body>
+    <h2>Nueva Reserva</h2>
+    <form th:action="@{/reservas/guardar}" method="post" th:object="${reserva}">
+        <label>Fecha Inicio:</label>
+        <input type="date" th:field="*{fechaInicio}" required>
+        <label>Fecha Fin:</label>
+        <input type="date" th:field="*{fechaFin}" required>
+        <button type="submit">Reservar</button>
+    </form>
+    <a href="/reservas">Volver</a>
+</body>
+</html>

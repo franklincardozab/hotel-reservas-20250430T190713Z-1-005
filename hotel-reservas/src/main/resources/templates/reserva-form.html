@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Reservar Habitación</title>
+</head>
+<body>
+<h2>Reservar en <span th:text="${hotel.nombre}"></span></h2>
+
+<form method="post" th:action="@{/reservas/nueva}">
+    <input type="hidden" name="hotelId" th:value="${hotel.id}">
+    <label>Fecha de Entrada:</label>
+    <input type="date" name="fechaEntrada" required>
+    
+    <label>Fecha de Salida:</label>
+    <input type="date" name="fechaSalida" required>
+    
+    <label>Número de Personas:</label>
+    <input type="number" name="numeroPersonas" min="1" required>
+    
+    <button type="submit">Reservar</button>
+</form>
+</body>
+</html>

@@ -1,0 +1,77 @@
+{"properties": [
+  {
+    "name": "datasource",
+    "type": "java.lang.String",
+    "description": "A description for 'datasource'"
+  },
+  {
+    "name": "url",
+    "type": "java.lang.String",
+    "description": "A description for 'url'"
+  },
+  {
+    "name": "username",
+    "type": "java.lang.String",
+    "description": "A description for 'username'"
+  },
+  {
+    "name": "password",
+    "type": "java.lang.String",
+    "description": "A description for 'password'"
+  },
+  {
+    "name": "driver-class-name",
+    "type": "java.lang.String",
+    "description": "A description for 'driver-class-name'"
+  },
+  {
+    "name": "jpa",
+    "type": "java.lang.String",
+    "description": "A description for 'jpa'"
+  },
+  {
+    "name": "properties",
+    "type": "java.lang.String",
+    "description": "A description for 'properties'"
+  },
+  {
+    "name": "security",
+    "type": "java.lang.String",
+    "description": "A description for 'security'"
+  },
+  {
+    "name": "name",
+    "type": "java.lang.String",
+    "description": "A description for 'name'"
+  },
+  {
+    "name": "dialect",
+    "type": "java.lang.String",
+    "description": "A description for 'dialect'"
+  },
+  {
+    "name": "ddl-auto",
+    "type": "java.lang.String",
+    "description": "A description for 'ddl-auto'"
+  },
+  {
+    "name": "user",
+    "type": "java.lang.String",
+    "description": "A description for 'user'"
+  },
+  {
+    "name": "spring",
+    "type": "java.lang.String",
+    "description": "A description for 'spring'"
+  },
+  {
+    "name": "stripe.api.key.sk",
+    "type": "java.lang.String",
+    "description": "A description for 'stripe.api.key.sk'"
+  },
+  {
+    "name": "stripe.api.key.pk",
+    "type": "java.lang.String",
+    "description": "A description for 'stripe.api.key.pk'"
+  }
+]}
